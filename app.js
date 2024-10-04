@@ -9,13 +9,16 @@ function likeBtn() {
         image.src = 'images/elephant-2.jpg';
         likeIcon.style.color = "#0967d2";
         likeButton.style.backgroundColor = "#0967d2";
-        likeButton.style.color = "#cbd2d9"
+        likeButton.style.color = "#cbd2d9";
+        likeButton.textContent = "DisLike";
+
         imageLiked = true;
     } else {
         image.src = 'images/elephant.jpg';
         likeIcon.style.color = "#9aa5b1";
         likeButton.style.backgroundColor = "#9aa5b1";
-        likeButton.style.color = "#cbd2d9"
+        likeButton.style.color = "#cbd2d9";
+        likeButton.textContent = "Like";
         imageLiked = false;
     }
 }
